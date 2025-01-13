@@ -1,4 +1,4 @@
-# AI-ML_INTERVIEW
+# AI/ML INTERVIEW QUESTION
 
 **Top Interview Questions for Data Science Freshers: ML, NLP, and Statistics** 
 
@@ -19,7 +19,17 @@ Some of these are straightforward, but others are tricky and designed to test yo
 12. Why is gradient descent not guaranteed to find the global minimum in non-convex loss functions? 
 13. Why might you prefer a simpler model like Logistic Regression over a complex one like a Neural Network in some cases? 
 14. If your model's AUC score is high but precision is low, why might this happen, and how would you address it? 
-15. Why do tree-based algorithms like XGBoost handle missing values better than most other models? 
+15. Why do tree-based algorithms like XGBoost handle missing values better than most other models?
+16. Why does adding noise to your data sometimes improve the robustness of a model? 
+17. Why might ensemble models like Random Forest perform poorly on a dataset with many categorical variables? 
+18. Why is the learning rate in gradient descent a critical hyperparameter, and how do you decide its value? 
+19. How would you explain the difference between bagging and boosting to a non-technical stakeholder? 
+20. Why does dropout improve generalization in neural networks, and how does it work?
+21. Why might a simpler model like Ridge Regression outperform a more complex one like Gradient Boosting on certain datasets? 
+22. Why is the choice of distance metric critical in clustering algorithms, and how would you decide which one to use? 
+23. How would you explain the concept of cross-entropy loss to someone without a technical background? 
+24. Why do neural networks benefit from non-linear activation functions? 
+25. Why might feature interactions in linear models require manual engineering, but not in tree-based models?  
 
 **Natural Language Processing Questions** 
 1. Why is tokenization an essential step in NLP, and what challenges arise when working with non-English languages? 
@@ -36,7 +46,16 @@ Some of these are straightforward, but others are tricky and designed to test yo
 12. Why might overfitting be a bigger issue in NLP tasks compared to tabular data? 
 13. If you’re training an NLP model, why might smaller batch sizes lead to better generalization for text data? 
 14. Why do transformer models like GPT require positional encoding, and how does it work? 
-15. Why might text summarization models struggle with long documents, and how would you overcome this? 
+15. Why might text summarization models struggle with long documents, and how would you overcome this?
+16. Why might language models struggle with sarcasm or idioms, and how could you improve their performance in such cases? 
+17. Why are recurrent neural networks (RNNs) less efficient for handling long sequences compared to transformer models? 
+18. Why is the BLEU score commonly used for machine translation, and what are its limitations? 
+19. Why might stopword removal harm the performance of a topic modeling algorithm like LDA? 
+20. How would you approach cleaning noisy text data from multiple languages in a dataset?
+21. How would you approach a text classification problem with a highly imbalanced dataset?
+22. How does subword tokenization handle out-of-vocabulary (OOV) words better than traditional tokenization? 
+23. Why might text data with heavy sarcasm or negation pose challenges for sentiment analysis models? 
+24. Why does pre-training on large corpora make transformers so effective for NLP tasks?  
 
 **Statistics Questions** 
 1. Why is p-value important in hypothesis testing, and what does a p-value of 0.05 really mean? 
@@ -53,7 +72,23 @@ Some of these are straightforward, but others are tricky and designed to test yo
 12. If two datasets have the same mean and variance, why might they still have very different distributions? 
 13. Why is it crucial to consider sample size when interpreting confidence intervals? 
 14. In A/B testing, why might a test that runs for too long lead to misleading results? 
-15. Why might you use bootstrapping instead of traditional hypothesis testing for small datasets? 
+15. Why might you use bootstrapping instead of traditional hypothesis testing for small datasets?
+16. Why is it important to check for outliers before running statistical tests, and how might they impact results? 
+17. If two variables have a correlation coefficient of 0, why might they still have a relationship? 
+18. Why do Bayesian methods often require priors, and how do you select a good prior? 
+19. In regression, why might a high R-squared value still not indicate a good model? 
+20. Why is the assumption of independence important in many statistical tests, and how would you test for it?
+21. Why is the standard deviation more useful than the range in describing the variability of a dataset? 
+22. Why might an unbiased estimator not always be preferred over a biased one? 
+23. How would you explain the importance of sampling distribution in inferential statistics? 
+14. Why might a statistically significant result not always be practically significant?
+
+**Time Series Questions**
+1. Why is stationarity important in time series forecasting, and how would you test for it? 
+2. How does differencing help in making a time series stationary, and why is it sometimes necessary? 
+3. Why might ARIMA models struggle with datasets that exhibit sudden structural changes or outliers? 
+4. How would you handle missing timestamps in a time-series dataset, and why might interpolation not always be the best choice? 
+5. Why is seasonality challenging in time-series forecasting, and how would you model it? 
 
 **Senior-Level/Tricky Questions** 
 1. Why might a gradient-boosting model outperform a deep learning model on small datasets? 
@@ -70,6 +105,16 @@ Some of these are straightforward, but others are tricky and designed to test yo
 12. You’re tasked with building a recommendation system for a new e-commerce site with no historical data. How would you approach this? 
 13. If your dataset contains a high percentage of duplicate entries, why might this affect your model’s performance? 
 14. Why might deploying a model trained on cloud GPUs fail to perform well on edge devices? 
-15. You’re working with a time-series dataset where sudden spikes occur. Why might traditional smoothing techniques fail, and what alternatives would you use?  
+15. You’re working with a time-series dataset where sudden spikes occur. Why might traditional smoothing techniques fail, and what alternatives would you use?
+16. Your model’s predictions are consistently biased for one specific class. How would you debug and resolve this issue? 
+17. Why might scaling features improve performance in clustering algorithms like K-Means but not in tree-based models? 
+18. You’re asked to build a model for a rare disease prediction. Why might precision be more critical than recall in this case? 
+19. If a dataset has missing values in only one feature, why might imputing with the mean not always be a good idea? 
+20. Your team wants to deploy a sentiment analysis model, but the output is inconsistent. How would you identify and fix the issue?
+21. Your time-series model underperforms because the data has irregular intervals. How would you address this? 
+22. You’re building an image classification model, but the training data contains mislabeled samples. How would you identify and handle them? 
+23. Your NLP model fails to detect sarcasm in product reviews. How would you approach improving it? 
+24. A client asks you to predict energy demand for a smart grid. How would you handle exogenous variables like weather and holidays? 
+25. Your statistical analysis shows a significant relationship between variables, but the domain expert says it’s not meaningful. How would you reconcile this?   
 
 These questions don’t just test theoretical knowledge but also your ability to think critically. 
