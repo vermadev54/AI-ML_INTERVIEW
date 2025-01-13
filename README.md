@@ -14,7 +14,12 @@ Some of these are straightforward, but others are tricky and designed to test yo
 7. In ensemble methods like Random Forest, why does increasing the number of trees sometimes stop improving accuracy? 
 8. Why might a model with high cross-validation accuracy still perform poorly on unseen test data? 
 9. Why is the R-squared metric not always a good indicator of model performance in regression? 
-10. If you have missing data, why might deleting rows or filling them with the mean not always be ideal? 
+10. If you have missing data, why might deleting rows or filling them with the mean not always be ideal?
+11. Why might adding more features to a dataset degrade model performance? How would you identify and remove irrelevant features? 
+12. Why is gradient descent not guaranteed to find the global minimum in non-convex loss functions? 
+13. Why might you prefer a simpler model like Logistic Regression over a complex one like a Neural Network in some cases? 
+14. If your model's AUC score is high but precision is low, why might this happen, and how would you address it? 
+15. Why do tree-based algorithms like XGBoost handle missing values better than most other models? 
 
 **Natural Language Processing Questions** 
 1. Why is tokenization an essential step in NLP, and what challenges arise when working with non-English languages? 
@@ -26,7 +31,12 @@ Some of these are straightforward, but others are tricky and designed to test yo
 7. How would you decide between using TF-IDF and Word2Vec for text vectorization? 
 8. Why might fine-tuning a pre-trained model like GPT yield better results than training from scratch? 
 9. If your NLP model generates irrelevant outputs, why might the temperature parameter be a factor? 
-10. Why is named entity recognition (NER) a challenging task, and how would you handle ambiguous entities? 
+10. Why is named entity recognition (NER) a challenging task, and how would you handle ambiguous entities?
+11. Why is subword tokenization (e.g., Byte-Pair Encoding) useful in handling rare words in NLP tasks? 
+12. Why might overfitting be a bigger issue in NLP tasks compared to tabular data? 
+13. If you’re training an NLP model, why might smaller batch sizes lead to better generalization for text data? 
+14. Why do transformer models like GPT require positional encoding, and how does it work? 
+15. Why might text summarization models struggle with long documents, and how would you overcome this? 
 
 **Statistics Questions** 
 1. Why is p-value important in hypothesis testing, and what does a p-value of 0.05 really mean? 
@@ -38,7 +48,12 @@ Some of these are straightforward, but others are tricky and designed to test yo
 7. How would you explain the difference between Type I and Type II errors, and why do both matter? 
 8. Why does multicollinearity affect regression models, and how can techniques like PCA help? 
 9. In hypothesis testing, why might a very small p-value still lead to incorrect conclusions? 
-10. Why is standard deviation preferred over variance when interpreting data spread? 
+10. Why is standard deviation preferred over variance when interpreting data spread?
+11. Why is it important to check the distribution of residuals in regression analysis? 
+12. If two datasets have the same mean and variance, why might they still have very different distributions? 
+13. Why is it crucial to consider sample size when interpreting confidence intervals? 
+14. In A/B testing, why might a test that runs for too long lead to misleading results? 
+15. Why might you use bootstrapping instead of traditional hypothesis testing for small datasets? 
 
 **Senior-Level/Tricky Questions** 
 1. Why might a gradient-boosting model outperform a deep learning model on small datasets? 
@@ -50,6 +65,11 @@ Some of these are straightforward, but others are tricky and designed to test yo
 7. Your model is performing well on training data but poorly on validation data. Why might regularization not always solve this? 
 8. A client insists on using deep learning for a small dataset. Why might this backfire, and how would you explain the risks? 
 9. Why might removing outliers improve a regression model’s performance but harm a classification model? 
-10. You have a perfectly balanced dataset but still experience poor classification accuracy. Why might the class separability be the issue? 
+10. You have a perfectly balanced dataset but still experience poor classification accuracy. Why might the class separability be the issue?
+11. Your model is biased against certain demographics. Why might this happen, and how would you mitigate it? 
+12. You’re tasked with building a recommendation system for a new e-commerce site with no historical data. How would you approach this? 
+13. If your dataset contains a high percentage of duplicate entries, why might this affect your model’s performance? 
+14. Why might deploying a model trained on cloud GPUs fail to perform well on edge devices? 
+15. You’re working with a time-series dataset where sudden spikes occur. Why might traditional smoothing techniques fail, and what alternatives would you use?  
 
 These questions don’t just test theoretical knowledge but also your ability to think critically. 
