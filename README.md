@@ -1,6 +1,7 @@
 # AI/ML INTERVIEW QUESTION
 
 **Top Interview Questions for Data Science Freshers: ML, NLP, and Statistics** 
+This repository contains over 100+ interview questions for Data Science Freshers: ML, NLP, and Statistics used by top companies like Google, NVIDIA, Meta, Microsoft, and Fortune 500 companies. Explore questions curated with insights from real-world scenarios, organized into 5 categories to facilitate learning and preparation.
 
 Some of these are straightforward, but others are tricky and designed to test your understanding. 
 
